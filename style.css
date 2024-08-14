@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 32px;
+}
+body{
+    
+    background-color: #283618;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tic-tac-toe{
+    order: 1;
+    align-items: center;
+    justify-self: center;
+}
+.button,.buttonx,.button0{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    font-size: 40px;
+    gap: 5px;
+    background-color: #dda15e;
+    font-weight: 700;
+    color: #f4f1de;
+
+}
+.resetbn, .resetScore{
+    order: 2;
+    text-align: center;
+    height: 50px;
+    width: 150px;
+    background-color: #dad7cd;
+    cursor: pointer;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+header{
+    position: relative;
+    top: 0;
+    color: cadetblue ;
+
+}
+body p{
+    color: #fefae0;
+    text-align: center;
+    font-size: 3.2rem;
+    font-weight: 600;
+}
+#output{
+    color: #fefae0;
+    text-align: center;
+    font-size: 2.6rem;
+    font-weight: 600;
+
+}
+.table{
+    color: #dad7cd;
+    font-size: 1.5rem;
+    height: 100px;
+    order: 2;
+    position: relative;
+    right: 0;
+}
+
+.table th {
+    background-color: #dbe2db;
+    color: rgb(19, 18, 18);
+    border: 2px solid rgb(219, 217, 217);
+    margin-right: 5px;
+  }
+.table tr{
+    text-align: center;
+    color: rgb(236, 229, 229);
+    border: 2px solid rgb(219, 217, 217);
+  }
+.container{
+    display: grid;
+    grid-template-columns: 500px 200px;
+    visibility: hidden;
+
+}
+.operation-btn{
+    order: 3;
+}
